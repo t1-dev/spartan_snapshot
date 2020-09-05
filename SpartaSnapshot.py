@@ -6,9 +6,13 @@ import csv
 import datetime
 
 listcoinsid=['binancecoin','canyacoin','thorchain','matic-network','cream-2','dos-network','chiliz','sharering','wazirx','harmony',
-           'ankr','tixl','unification','concierge-io','contentos']
+           'ankr','tixl','unification','concierge-io','contentos','newton-project','waykichain','troy','atomic-wallet-coin',
+             'v-id-blockchain','top-network','lto-network','givly-coin','nexo','morpheus-labs','raven-protocol','cubiex', 'cashaa',
+             'trust-wallet-token', 'loki-network']
 listcoinsname=['binance coin','canya coin','thorchain','matic-network','irisnet','dos-network','chiliz','share token','wazirx','harmony',
-           'ankr','tixl','unification','travala','contentos']
+           'ankr','tixl','unification','travala','contentos','newton-project','waykichain','troy','atomic-wallet-coin',
+              'v-id-blockchain','top-network','lto-network','givly-coin','nexo','morpheus-labs','raven-protocol','cubiex', 'cashaa',
+             'trust-wallet-token', 'loki-network']
 listcoins = [(listcoinsid[i], listcoinsname[i]) for i in range(0, len(listcoinsid))] 
 
 req_timeout=5
